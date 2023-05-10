@@ -12,3 +12,13 @@ wordList = ["fool", "pool", "foil", "foul", "cool", "poll", "fail", "pole", "pal
 I am using my start as = “pole” and end as “soul” and one of the algorithm mechanisms will find it in five letters changes:
 
 <img width="521" alt="Screen Shot 2023-05-09 at 8 34 50 PM" src="https://github.com/srirakshareddy/State-space-AI/assets/132956605/68d5f885-789f-4ce7-b1d2-c655a065ecee">
+
+Overview:
+1. Using the BFS and DFS to search for the path and finding a path from a start
+word to an end word.
+2. The code is in Python and has 4 parts.
+3. The wordlist is first defined.
+4. After defining the wordlist we then use the breadth first search to implement
+the state space search mechanism
+5. The second state space search mechanism is depth first search.
+6. The length of the shortest chain in both BFS and DFS.
